@@ -1,0 +1,8 @@
+7
+python3 csvtool.py -count students.csv
+python3 csvtool.py -stats Age students.csv mean
+python3 csvtool.py -find students.csv Delhi
+python3 csvtool.py -find students.csv Delhi City Name
+python3 csvtool.py -cp students.csv backup.csv
+python3 csvtool.py -append students.csv combined.csv
+python3 csvtool.py --help 

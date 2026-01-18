@@ -1,0 +1,16 @@
+--- REVIEW START ---
+Movie: Interstellar
+User: alice
+Date: 2025-03-15
+Time: 22:45
+Rating: 9
+Comment: Absolutely mind-blowing visuals!
+--- REVIEW END ---
+--- REVIEW START ---
+User: bob
+Time: 23:01
+Movie: Inception
+Date: 2025-03-15
+Rating: 8
+Comment: Great but a bit confusing.
+--- REVIEW END ---
