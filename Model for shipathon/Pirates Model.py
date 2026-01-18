@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -28,6 +29,9 @@ X_train, X_test, Y_train, Y_test = train_test_split(
 model = OneVsRestClassifier(LogisticRegression(
     solver='liblinear', max_iter=1000))
 model.fit(X_train, Y_train)
+
+joblib.dump(model, 'genre_model.pkl')
+joblib.dump(tfidf, 'tfidf_vectorizer.pkl')
 
 print(f"Accuracy: {model.score(X_test, Y_test):.2f}")
 
