@@ -1,4 +1,0 @@
-Hello\n
-This is a line\n
-This is another line\n
-And this is the final line
